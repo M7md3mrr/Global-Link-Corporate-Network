@@ -1,35 +1,40 @@
-Global-Link Corporate Enterprise Network
+🌐 Global-Link Corporate Enterprise Network
 
 CCNA Enterprise Networking Project
 
-Project Overview
-
-This project simulates a real-world enterprise network connecting a Corporate Headquarters (HQ) with three regional branches through a four-router ISP transit core.
-
-The network was designed and implemented using Cisco Packet Tracer.
+A scalable enterprise network designed and implemented using Cisco Packet Tracer, connecting a Headquarters (HQ) with three regional branches through an ISP transit backbone. The project demonstrates dynamic routing, centralized DHCP services, and end-to-end connectivity across multiple sites.
 
 ---
 
-Network Features
+📋 Project Overview
+
+This project simulates a real-world corporate infrastructure where multiple branches communicate through a service provider network while obtaining IP addresses from a centralized DHCP server located at the Headquarters.
+
+The objective was to build a scalable and maintainable network architecture using industry-standard networking technologies and best practices.
+
+---
+
+🚀 Network Features
 
 - Dynamic Routing using RIPv2
-- VLSM Addressing
 - Centralized DHCP Server
-- DHCP Relay (ip helper-address)
-- Multi-site Connectivity
+- DHCP Relay Agent (ip helper-address)
+- Multi-Site Enterprise Connectivity
 - ISP Transit Backbone
 - End-to-End Reachability
-- Link Failure Adaptation
+- Inter-Branch Communication
+- Scalable Network Design
+- Network Verification & Troubleshooting
 
 ---
 
-Network Topology
+🏗️ Network Topology
 
-"Topology" (Documentation/Network-Topology.png)
+"Network Topology" (Documentation/Network-Topology.png)
 
 ---
 
-Components
+🖥️ Network Components
 
 Headquarters (HQ)
 
@@ -57,22 +62,26 @@ Branch C
 
 ISP Core
 
-- Four interconnected routers acting as a service provider backbone.
+- Four interconnected routers acting as the service provider backbone.
 
 ---
 
-Technologies Used
+🛠️ Technologies Used
 
 - Cisco Packet Tracer
-- RIPv2
+- IPv4 Addressing
 - DHCP
 - DHCP Relay Agent
-- VLSM
-- ICMP (Ping & Traceroute)
+- RIPv2
+- ICMP (Ping)
+- Traceroute
+- Router Configuration
+- Switch Configuration
+- Network Troubleshooting
 
 ---
 
-Verification
+✅ Verification
 
 DHCP
 
@@ -84,34 +93,34 @@ All routers exchange routes dynamically through RIPv2.
 
 Connectivity
 
-- Branch A ↔️ HQ
-- Branch B ↔️ HQ
-- Branch C ↔️ HQ
-- Branch A ↔️ Branch B
-- Branch A ↔️ Branch C
-- Branch B ↔️ Branch C
+- Branch A ↔ HQ
+- Branch B ↔ HQ
+- Branch C ↔ HQ
+- Branch A ↔ Branch B
+- Branch A ↔ Branch C
+- Branch B ↔ Branch C
 
 100% reachability achieved without static routes.
 
 ---
 
-Screenshots
+📸 Project Screenshots
 
-Headquarters
+Headquarters Network
 
 "HQ" (Screenshots/HQ.png)
 
-Branches
+Branch Networks
 
 "Branches" (Screenshots/Branches.png)
 
-DHCP Success
+DHCP Address Assignment
 
 "DHCP" (Screenshots/dhcp-success.png)
 
 ---
 
-Verification Results
+📊 Verification Results
 
 Test| Status
 DHCP Assignment| ✅ Passed
@@ -121,23 +130,38 @@ Branch-to-Branch Communication| ✅ Passed
 
 Ping Verification
 
-"Ping" (Screenshots/ping-test.png)
+"Ping Test" (Screenshots/ping-test.png)
 
-Routing Table
+Routing Table Verification
 
-"Route" (Screenshots/show-ip-route.png)
+"Routing Table" (Screenshots/show-ip-route.png)
 
-RIP Protocol
+RIP Protocol Verification
 
 "RIP" (Screenshots/rip-core.png)
 
-Show IP Protocols
+Routing Protocol Details
 
 "Protocols" (Screenshots/show-ip-protocols.png)
 
 ---
 
-Author
+🎯 Learning Outcomes
+
+Through this project, the following networking concepts were applied and validated:
+
+- Enterprise Network Design
+- Dynamic Routing with RIPv2
+- DHCP Deployment
+- DHCP Relay Configuration
+- VLSM Subnetting
+- Network Troubleshooting
+- Connectivity Verification
+- Cisco Router & Switch Configuration
+
+---
+
+👨‍💻 Author
 
 Mohamed Amr
 
