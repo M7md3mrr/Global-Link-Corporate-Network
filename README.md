@@ -104,22 +104,6 @@ Connectivity
 
 ---
 
-📸 Project Screenshots
-
-Headquarters Network
-
-"HQ" (Screenshots/HQ.png)
-
-Branch Networks
-
-"Branches" (Screenshots/Branches.png)
-
-DHCP Address Assignment
-
-"DHCP" (Screenshots/dhcp-success.png)
-
----
-
 📊 Verification Results
 
 Test| Status
